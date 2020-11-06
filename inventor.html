@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html class="no-js  page-4 app-WIKI-INVENTION-MANAGEMENT-SYSTEM" lang="en" >
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>Inventor</title>
+  <base href="/pls/apex/" />
+<link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/oraclejet/9.1.0/css/libs/oj/v9.1.0/redwood/oj-redwood-cssvars-notag-min.css?v=20.2.0.00.20" type="text/css" />
+<link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/app_ui/css/Core.min.css?v=20.2.0.00.20" type="text/css" />
+<link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/app_ui/css/Theme-Standard.min.css?v=20.2.0.00.20" type="text/css" />
+
+  <link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/font-apex/2.1/css/font-apex.min.css?v=20.2.0.00.20" type="text/css" />
+<link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/themes/theme_42/1.6/css/Core.min.css?v=20.2.0.00.20" type="text/css" />
+
+  
+  <link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/oracle-fonts/oraclesans-apex.min.css?v=20.2.0.00.20" type="text/css" />
+<link rel="stylesheet" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/themes/theme_42/1.6/css/Redwood-Light.min.css?v=20.2.0.00.20" type="text/css" />
+
+  <link rel="stylesheet" href="pavan123rs8/r/4051112/files/static/v5/app-icon.css?version=Release%201.0" type="text/css" />
+
+  
+  <link rel="shortcut icon" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/favicon.ico">
+<link rel="icon" sizes="16x16" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/favicon-16x16.png">
+<link rel="icon" sizes="32x32" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.oracle.com/cdn/apex/20.2.0.00.20/favicon-180x180.png">
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head><script type='text/javascript' charset='UTF-8' crossorigin='anonymous'>window.apmeum||(window.apmeum = {});apmeum.commonInited||(function(){apmeum.responseStart=Number(new Date);apmeum.appKey='null';apmeum.customerId='7e2e90dc30bda';apmeum.agentId='D0D9F2D8AD693EFEA6C0C646A82307C3E4703E46';apmeum.agentVersionKey='D0D9F2D8AD693EFEA6C0C646A82307C3E4703E46';apmeum.baseCollectorUrl='https://omc-7e2e90dc30bda.eum.omc.ocp.oraclecloud.com/APMaaSCollector/external/collector?';apmeum.commonInited=true;}());</script><script src='https://omc-7e2e90dc30bda.eum.omc.ocp.oraclecloud.com/APMaaSCollector/external/collector/staticlib/apmeum.js' async='async' defer='defer' crossorigin='anonymous'></script><script type='text/javascript' charset='UTF-8' crossorigin='anonymous'>window.apmeum||(window.apmeum = {});apmeum.dynamicInited||(function(){apmeum.sid='19qdwK3xvkWsyRYTmOEbS6DebFPdPZdYd80kZJUlOE77nsEpUnJf!392815518!1604669451761';apmeum.operationId='CF96F60176AFEC26C216D23C103B72F4D6B5A367';apmeum.statusCode='200';apmeum.obs=31;apmeum.typeobs || (apmeum.typeobs={});apmeum.connectionCount=3;apmeum.connectionTimeout=2000;apmeum.rewriteRules=0;apmeum.webapp_tag='';apmeum.dynamicInited=true;}());</script>
+<body class="t-PageBody t-PageBody--hideLeft t-PageBody--hideActions no-anim   apex-side-nav apex-icons-fontapex apex-theme-redwood-light"   id="t_PageBody">
+<a href="#main" id="t_Body_skipToContent">Skip to Main Content</a>
+<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" data-oj-binding-provider="none" novalidate  autocomplete="off">
+<input type="hidden" name="p_flow_id" value="4051112" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="4" id="pFlowStepId" /><input type="hidden" name="p_instance" value="702261481228251" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="16278246827045471230323511751772950549" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="S" id="pReloadOnSubmit" /><input type="hidden" value="16278246827045471230323511751772950549" id="pSalt" />
+<header class="t-Header" id="t_Header" role="banner">
+  
+  <div class="t-Header-branding">
+    <div class="t-Header-controls">
+      <button class="t-Button t-Button--icon t-Button--header t-Button--headerTree" aria-label="Expand / Collapse Navigation" title="Expand / Collapse Navigation" id="t_Button_navControl" type="button"><span class="t-Header-controlsIcon" aria-hidden="true"></span></button>
+    </div>
+    <div class="t-Header-logo">
+      <a href="&#x2F;pls&#x2F;apex&#x2F;pavan123rs8&#x2F;r&#x2F;wiki-invention-management-system&#x2F;home?session=702261481228251" class="t-Header-logo-link"><img src="pavan123rs8/r/4051112/files/static/v5/app-4051112-logo.png" class="apex-logo-img" /><span class="apex-logo-text">Wiki Invention Management System</span></a>
+    </div>
+    <div class="t-Header-navBar"><ul class="t-NavigationBar lto8032572729624304854_0" id="8032572729624304854"><li class="t-NavigationBar-item icon-only">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="javascript:apex.navigation.dialog('\u002Fpls\u002Fapex\u002Fpavan123rs8\u002Fr\u002Fwiki-invention-management-system\u002Ffeedback?p10050_page_id=4\u0026clear=RP,10050\u0026session=702261481228251\u0026cs=3kJjK1ru3j_JrbFj4HRMWNGUBIyLH7Sj1LNyAiLd2JOvdqB75b0MEkhA-nZhSYBzzwKvpzq-Q9G6tr0VOBgdrZA\u0026dialogCs=BrgVFej1b1S561MHR-ACP3P0IJok0DEmsWrodQB3s2mGcl5fz52QIcQeB66M7Zmly3RnsYSKh_Ddez7WCdypWA',{title:'Feedback',height:'auto',width:'480',maxWidth:'960',modal:true,dialog:null},'t-Dialog-page--standard '+'',apex.gPageContext$);" title="">
+    <span class="t-Icon fa&#x20;fa-comment-o" ></span><span class="t-Button-label">Feedback</span><span class="t-Button-badge"></span>
+  </a>
+</li><li class="t-NavigationBar-item icon-only">
+  <button class="t-Button t-Button--icon t-Button t-Button--header t-Button--navBar js-menuButton" type="button" id="L8032891975018309762" data-menu="menu_L8032891975018309762" title="">
+      <span class="t-Icon fa&#x20;fa-question-circle-o" ></span><span class="t-Button-label">About</span><span class="t-Button-badge"></span><span class="a-Icon icon-down-arrow"></span>
+  </button><div class="t-NavigationBar-menu" style="display: none" id="menu_L8032891975018309762"><ul><li data-current="false" data-icon="fa&#x20;fa-question-circle-o"><a href="javascript:apex.navigation.dialog('\u002Fpls\u002Fapex\u002Fpavan123rs8\u002Fr\u002Fwiki-invention-management-system\u002Fpage_help?p10061_page_id=4\u0026session=702261481228251\u0026cs=33ek-4sDIZHUomrQgcvunGZ2QrsOvIqtC2Z9RJ_d1UVTgY3mksKg0Zcj4-mXcavXsNTgPWWFdJefV62425uMNyw\u0026dialogCs=omoY7eG51KnhaG4t2Kq7RRdPHOqrrfC2yfRqCFzoQjWsKh_h_3jb7PQhT5puEx-qTaMvYI4sh23vAdRHN9UTEA',{title:'Help',height:'auto',width:'720',maxWidth:'960',modal:true,dialog:null},'t-Dialog-page--standard '+'',apex.gPageContext$);" title="">Page Help</a></li><li data-current="false" data-icon=""><a href="separator" title="">---</a></li><li data-current="false" data-icon="fa&#x20;fa-info-circle-o"><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/help?clear=10060&session=702261481228251&cs=3ABgyi92ZT2cZ4I3_PbN05LubxCDMJHpFDT0WqLV343iPGEJLVUDoipfop9w4NNLPP8k7LrCqJxYkRRLw_IGeOg" title="">About Page</a></li></ul></div></li><li class="t-NavigationBar-item has-username">
+  <button class="t-Button t-Button--icon t-Button t-Button--header t-Button--navBar js-menuButton" type="button" id="L8032893570020309764" data-menu="menu_L8032893570020309764" title="">
+      <span class="t-Icon fa&#x20;fa-user" ></span><span class="t-Button-label">BHASKARSREENIVAS.PAVAN2019@VITSTUDENT.AC.IN</span><span class="t-Button-badge"></span><span class="a-Icon icon-down-arrow"></span>
+  </button><div class="t-NavigationBar-menu" style="display: none" id="menu_L8032893570020309764"><ul><li data-current="false" data-icon=""><a href="separator" title="">---</a></li><li data-current="false" data-icon="fa&#x20;fa-sign-out"><a href="apex_authentication.logout?p_app_id=4051112&p_session_id=702261481228251" title="">Sign Out</a></li></ul></div></li></ul></div>
+  </div>
+  <div class="t-Header-nav"></div>
+</header>
+<div class="t-Body">
+  <div class="t-Body-nav" id="t_Body_nav" role="navigation" aria-label="Wiki Invention Management System">
+<div class="t-TreeNav js-defaultCollapsed t-TreeNav--styleA js-navCollapsed--hidden lto8032433350695304745_0" id="t_TreeNav" data-id="4_tree" aria-label="Wiki Invention Management System"><ul style="display:none"><li data-id="" data-disabled="" data-icon="fa&#x20;fa-home" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/home?session=702261481228251" title="" target="">Home</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-lightbulb-o" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/inventions?session=702261481228251" title="" target="">Inventions</a></li><li data-current="true" data-id="" data-disabled="" data-icon="fa&#x20;fa-user" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/inventor?session=702261481228251" title="" target="">Inventor</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-users" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/jury?session=702261481228251" title="" target="">Jury</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-trophy" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/awards?session=702261481228251" title="" target="">Awards</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-table" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/award-nominations?session=702261481228251" title="" target="">Award Nominations</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-bars" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/invention-management?session=702261481228251" title="" target="">Invention Management</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-user-wrench" data-shortcut=""><a href="/pls/apex/pavan123rs8/r/wiki-invention-management-system/admin?session=702261481228251" title="" target="">Administration</a></li></ul></div></div>
+  <div class="t-Body-main">
+    <div class="t-Body-title" id="t_Body_title"><div id="R8032611612677305519"  class="t-BreadcrumbRegion t-BreadcrumbRegion--showBreadcrumb t-BreadcrumbRegion--useBreadcrumbTitle lto8032611612677305519_0"> 
+  <div class="t-BreadcrumbRegion-body">
+    <div class="t-BreadcrumbRegion-breadcrumb">
+      <ul class="t-Breadcrumb lto8032611612677305519_1"><li class="t-Breadcrumb-item is-active"><h1 class="t-Breadcrumb-label">Inventor</h1></li></ul>
+    </div>
+    <div class="t-BreadcrumbRegion-title">
+      <h1 class="t-BreadcrumbRegion-titleText">Breadcrumb</h1>
+    </div>
+  </div>
+  <div class="t-BreadcrumbRegion-buttons"></div>
+</div></div>
+    <div class="t-Body-content" id="t_Body_content">
+      <main id="main" class="t-Body-mainContent">
+        <span id="APEX_SUCCESS_MESSAGE" data-template-id="8032451797229304760_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="8032451797229304760_E" class="apex-page-error u-hidden"></span>
+        <div class="t-Body-fullContent"></div>
+        <div class="t-Body-contentInner"><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" ><div id="R8032607111030305513"  class="t-IRR-region lto8032607111030305513_0">
+  <h2 class="u-VisuallyHidden" id="R8032607111030305513_heading">Inventor</h2>
+<div id="R8032607111030305513_ir" class="a-IRR-container"><div id="R8032607111030305513_worksheet_region" aria-live="polite"><div id="R8032607111030305513_single_row_view" class="a-IRR-singleRowView"></div><div id="R8032607111030305513_full_view" class="a-IRR-fullView"><div id="R8032607111030305513_actions_menu"></div><div id="R8032607111030305513_column_search_drop" class="a-IRR-colSearch"></div><div id="R8032607111030305513_toolbar" class="a-IRR-toolbar"><div id="R8032607111030305513_toolbar_controls" class="a-IRR-controls"><div class="a-IRR-controlGroup a-IRR-controlGroup--search"><div class="a-IRR-search"><input type="hidden" id="R8032607111030305513_column_search_current_column" /><div class="a-IRR-colSelector"><button id="R8032607111030305513_column_search_root" data-menu="R8032607111030305513_column_search_drop" class="a-Button a-IRR-button a-IRR-button--colSearch js-menuButton" title="Select columns to search" aria-label="Select columns to search" type="button"><span class="a-Icon icon-search" aria-hidden="true"></span><span class="a-Icon icon-menu-drop-down" aria-hidden="true"></span></button></div><div class="a-IRR-searchFieldContainer"><input class="a-IRR-search-field" id="R8032607111030305513_search_field" title="Search Report" type="text" size="30" maxlength="4000" value="" /></div><div class="a-IRR-searchButtonContainer"><button id="R8032607111030305513_search_button" class="a-Button a-IRR-button a-IRR-button--search" type="button"  ><span>Go</span></button></div></div></div><div class="a-IRR-controlGroup a-IRR-controlGroup--views"></div><div class="a-IRR-controlGroup a-IRR-controlGroup--options"><input type="hidden" id="R8032607111030305513_row_select" value="50" /><div class="a-IRR-actions"><button id="R8032607111030305513_actions_button" class="a-Button a-IRR-button a-IRR-button--actions js-menuButton" type="button" data-menu="R8032607111030305513_actions_menu">Actions<span class="a-Icon icon-menu-drop-down"></span></button></div></div></div><div class="a-IRR-buttons"><button class="t-Button t-Button--icon js-ignoreChange&#x20;t-Button--iconLeft&#x20;lto8032610844733305518_0"  onclick="apex.navigation.redirect(&#x27;\u002Fpls\u002Fapex\u002Fpavan123rs8\u002Fr\u002Fwiki-invention-management-system\u002Finventor?clear=RR\u0026session=702261481228251&#x27;);" type="button" id="B8032610844733305518"><span class="t-Icon t-Icon--left fa&#x20;fa-undo-alt" aria-hidden="true"></span><span class="t-Button-label">Reset</span><span class="t-Icon t-Icon--right fa&#x20;fa-undo-alt" aria-hidden="true"></span></button><button onclick="javascript:apex.navigation.dialog(&#x27;\u002Fpls\u002Fapex\u002Fpavan123rs8\u002Fr\u002Fwiki-invention-management-system\u002Finventor1?clear=5\u0026session=702261481228251\u0026cs=3M20z9wRWQfkBBti_VE4Be0BNIaszRUhKOE-41QdjzkaNFxlX7GFb3EoEja0Xks__4Z6oYJgwQp50DkvJwiQuJQ\u0026dialogCs=N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,{title:&#x27;Inventor&#x27;,height:&#x27;auto&#x27;,width:&#x27;720&#x27;,maxWidth:&#x27;960&#x27;,modal:true,dialog:null},&#x27;t-Dialog-page--standard &#x27;+&#x27;&#x27;,apex.jQuery(&#x27;#B8032613433633305520&#x27;));" class="t-Button t-Button--hot js-ignoreChange&#x20;lto8032613433633305520_0" type="button"  id="B8032613433633305520"><span class="t-Button-label">Create</span></button></div></div><div id="R8032607111030305513_content" class="a-IRR-content"><div id="R8032607111030305513_dialog_js" class="a-IRR-dialogBody" style="display:none"></div><input type="hidden" id="R8032607111030305513_worksheet_id" value="8032607226152305513" />
+<input type="hidden" id="R8032607111030305513_app_user" value="BHASKARSREENIVAS.PAVAN2019@VITSTUDENT.AC.IN" />
+<input type="hidden" id="R8032607111030305513_report_id" value="8032697327904308447" />
+<input type="hidden" id="R8032607111030305513_view_mode" value="REPORT" />
+<style id="R8032607111030305513_worksheet_css" type="text/css">
+</style>
+<div id="R8032607111030305513_chart" class="a-IRR-chartView"></div><div id="R8032607111030305513_group_by" class="a-IRR-groupByView"></div><div id="R8032607111030305513_pivot" class="a-IRR-pivotView"></div><div id="R8032607111030305513_data_panel" class="a-IRR-reportView"><div class="a-IRR-tableContainer"><table aria-label="Region = Inventor, Report = Primary Default, View = Report, Displayed Rows Start = 1, Displayed Rows End = 7" class="a-IRR-table" id="8032607226152305513">
+<tr><th class="a-IRR-header u-tL" id="LINK"><span class="hideMeButHearMe">Link</span></th><th class="a-IRR-header u-tL" id="C8032607609076305515"><a class="a-IRR-headerLink" data-column="8032607609076305515" href="#">Inventor ID<span class="a-IRR-headerSort"><span class="a-Icon icon-irr-sort-asc"><span class="u-VisuallyHidden">Ascending</span></span></span></a></th><th class="a-IRR-header u-tL" id="C8032608006403305515"><a class="a-IRR-headerLink" data-column="8032608006403305515" href="#">F Name</a></th><th class="a-IRR-header u-tL" id="C8032608462321305516"><a class="a-IRR-headerLink" data-column="8032608462321305516" href="#">L Name</a></th><th class="a-IRR-header u-tL" id="C8032608822620305516"><a class="a-IRR-headerLink" data-column="8032608822620305516" href="#">Dob</a></th><th class="a-IRR-header u-tL" id="C8032609233701305516"><a class="a-IRR-headerLink" data-column="8032609233701305516" href="#">Job Type</a></th><th class="a-IRR-header u-tL" id="C8032609665467305517"><a class="a-IRR-headerLink" data-column="8032609665467305517" href="#">Area</a></th><th class="a-IRR-header u-tL" id="C8032610046009305517"><a class="a-IRR-headerLink" data-column="8032610046009305517" href="#">City</a></th><th class="a-IRR-header u-tL" id="C8032610467156305517"><a class="a-IRR-headerLink" data-column="8032610467156305517" href="#">Pincode</a></th></tr>
+<tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr001&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;365W8Yig8VAsN0Z1ln2XEkRfBk2AIkLUMwJcvq8xGuh1KvhwK6NyRWG94QTYFHQryBoTXhb8lOJx1BoyvfhWwNg&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr001</td><td class=" u-tL" headers="C8032608006403305515">Andrej 
+</td><td class=" u-tL" headers="C8032608462321305516">Karpathy</td><td class=" u-tL" headers="C8032608822620305516">7&#x2F;13&#x2F;1987</td><td class=" u-tL" headers="C8032609233701305516">Scientist</td><td class=" u-tL" headers="C8032609665467305517">1</td><td class=" u-tL" headers="C8032610046009305517">2</td><td class=" u-tL" headers="C8032610467156305517">3</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr002&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;3GJFUQlUQGd9vkSZPX1pW9GJXmz9gC7CkAvRCpUet6Qbif--R6rjj4xIGcg-eyWKS_l_CpzQxjsmUd1-x9i_esA&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr002</td><td class=" u-tL" headers="C8032608006403305515">Jeffery 
+</td><td class=" u-tL" headers="C8032608462321305516">Hinton</td><td class=" u-tL" headers="C8032608822620305516">2&#x2F;25&#x2F;1988</td><td class=" u-tL" headers="C8032609233701305516">Scientist</td><td class=" u-tL" headers="C8032609665467305517">a</td><td class=" u-tL" headers="C8032610046009305517">b</td><td class=" u-tL" headers="C8032610467156305517">1</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr003&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;3YEdmzV3_9EK6poTwcKebFaP29hvoI5dLu79bZnS-a1uhdLrBxSeI2tLE43y2EVpAf89XmdRiDLgTT2rfxTh6nw&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr003</td><td class=" u-tL" headers="C8032608006403305515">Siraj 
+</td><td class=" u-tL" headers="C8032608462321305516">Raval</td><td class=" u-tL" headers="C8032608822620305516">5&#x2F;17&#x2F;1975</td><td class=" u-tL" headers="C8032609233701305516">Scientist</td><td class=" u-tL" headers="C8032609665467305517">4</td><td class=" u-tL" headers="C8032610046009305517">5</td><td class=" u-tL" headers="C8032610467156305517">6</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr004&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;3nHeuLjvlDI_JjKAVt04vwXQhCu6JGufrtpHLy2Hr_jODJRAcDTwWArMWsOui5BHSTmpMyh2otSP_NriWVR1tSA&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr004</td><td class=" u-tL" headers="C8032608006403305515">Venu 
+</td><td class=" u-tL" headers="C8032608462321305516">Vardhan</td><td class=" u-tL" headers="C8032608822620305516">7&#x2F;28&#x2F;1998</td><td class=" u-tL" headers="C8032609233701305516">Student</td><td class=" u-tL" headers="C8032609665467305517">d</td><td class=" u-tL" headers="C8032610046009305517">e</td><td class=" u-tL" headers="C8032610467156305517">2</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr005&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;3uiW5f5T66pexTHA_adzKvAjgHFM81rOANbeKOx2JJZWOwPCGdnXQ5irKGlheG1AKvD-k24KZR-WBRCEJyesBUQ&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr005</td><td class=" u-tL" headers="C8032608006403305515">Srinivas 
+</td><td class=" u-tL" headers="C8032608462321305516">Machiraju</td><td class=" u-tL" headers="C8032608822620305516">2&#x2F;19&#x2F;1998</td><td class=" u-tL" headers="C8032609233701305516">Student</td><td class=" u-tL" headers="C8032609665467305517">7</td><td class=" u-tL" headers="C8032610046009305517">8</td><td class=" u-tL" headers="C8032610467156305517">9</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr006&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;39j_Q2531FqaFjjiYB5M2iSI68t1dQ-g6E8_t4vGKj-1bokeY6r_zQPEDzE8Bsvqg_EbDDYC_ESreAPIyeqvAGQ&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr006</td><td class=" u-tL" headers="C8032608006403305515">Vinay 
+</td><td class=" u-tL" headers="C8032608462321305516">Varma</td><td class=" u-tL" headers="C8032608822620305516">9&#x2F;18&#x2F;1999</td><td class=" u-tL" headers="C8032609233701305516">Student</td><td class=" u-tL" headers="C8032609665467305517">g</td><td class=" u-tL" headers="C8032610046009305517">h</td><td class=" u-tL" headers="C8032610467156305517">3</td></tr><tr ><td headers="LINK"><a href="javascript&#x3A;apex.navigation.dialog&#x28;&#x27;&#x5C;u002Fpls&#x5C;u002Fapex&#x5C;u002Fpavan123rs8&#x5C;u002Fr&#x5C;u002Fwiki-invention-management-system&#x5C;u002Finventor1&#x3F;p5_inventor_id&#x3D;Inr007&#x5C;u0026clear&#x3D;5&#x5C;u0026session&#x3D;702261481228251&#x5C;u0026cs&#x3D;35k1P9RryMIcQufXJ1aWCnxkEt9meld1SRiiem8A0Yc_RiVdGf2ODp1uy8Bqd14y9B4yHGP5cA3FYM1wKQbEotw&#x5C;u0026dialogCs&#x3D;N8Vt82q6aA5NlfyWgCtctofen7yt3PlnrUcd1H73aRnOlOkYPvJ11AGfyLjVNQjTd4bV_NMgbSaUIRqnAuWQpw&#x27;,&#x7B;title&#x3A;&#x27;Inventor&#x27;,height&#x3A;&#x27;auto&#x27;,width&#x3A;&#x27;720&#x27;,maxWidth&#x3A;&#x27;960&#x27;,modal&#x3A;true,dialog&#x3A;null&#x7D;,&#x27;t-Dialog-page--standard&#x20;&#x27;&#x2B;&#x27;&#x27;,apex.jQuery&#x28;&#x27;&#x23;R8032607111030305513&#x27;&#x29;&#x29;&#x3B;" ><span class="fa fa-edit" aria-hidden="true"></span></a></td><td class=" u-tL" headers="C8032607609076305515">Inr007</td><td class=" u-tL" headers="C8032608006403305515">Jared 
+</td><td class=" u-tL" headers="C8032608462321305516">Spool</td><td class=" u-tL" headers="C8032608822620305516">5&#x2F;1&#x2F;1987</td><td class=" u-tL" headers="C8032609233701305516">Scientist</td><td class=" u-tL" headers="C8032609665467305517">10</td><td class=" u-tL" headers="C8032610046009305517">11</td><td class=" u-tL" headers="C8032610467156305517">12</td></tr></table></div><div class="a-IRR-paginationWrap a-IRR-paginationWrap--bottom"><ul class="a-IRR-pagination"><li aria-hidden="true" class="a-IRR-pagination-item is-disabled"></li><li class="a-IRR-pagination-item"><span class="a-IRR-pagination-label">                   1 -                    7</span></li><li aria-hidden="true" class="a-IRR-pagination-item is-disabled"></li></ul></div></div></div></div></div><div class="a-IRR-sortWidget" id="R8032607111030305513_sort_widget" style="display:none;"><ul class="a-IRR-sortWidget-actions" id="R8032607111030305513_sort_widget_actions"><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_up"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Sort Ascending" data-option="up"><span class="a-Icon icon-irr-sort-asc"></span></button></li><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_down"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Sort Descending" data-option="down"><span class="a-Icon icon-irr-sort-desc"></span></button></li><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_hide"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Hide Column" data-option="hide"><span class="a-Icon icon-irr-remove-col"></span></button></li><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_break"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Control Break" data-option="break"><span class="a-Icon icon-irr-control-break"></span></button></li><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_help"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Column Information" data-option="help"><span class="a-Icon icon-irr-help"></span></button></li><li class="a-IRR-sortWidget-actions-item" id="R8032607111030305513_sort_widget_action_computation"><button class="a-Button a-IRR-button a-IRR-sortWidget-button" type="button" title="Compute" data-option="computation"><span class="a-Icon icon-irr-calculator"></span></button></li></ul><div class="a-IRR-sortWidget-help" id="R8032607111030305513_sort_widget_help"></div><div class="a-IRR-sortWidget-search" id="R8032607111030305513_sort_widget_search"><label for="R8032607111030305513_sort_widget_search_field" class="a-IRR-sortWidget-searchLabel"><span class="u-VisuallyHidden">Search</span></label><input id="R8032607111030305513_sort_widget_search_field" class="a-IRR-sortWidget-searchField" type="text" placeholder="Filter..." /><div class="a-IRR-sortWidget-rows" id="R8032607111030305513_sort_widget_rows"></div></div></div></div>
+</div></div>
+</div>
+</div></div>
+      </main>
+      <footer class="t-Footer" role="contentinfo">
+        <div class="t-Footer-body">
+          <div class="t-Footer-content"></div>
+          <div class="t-Footer-apex">
+            <div class="t-Footer-version">Release 1.0</div>
+            <div class="t-Footer-customize"></div>
+            
+          </div>
+        </div>
+        <div class="t-Footer-top">
+          <a href="#top" class="t-Footer-topButton" id="t_Footer_topButton"><span class="a-Icon icon-up-chevron"></span></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<div class="t-Body-inlineDialogs"></div><input type="hidden" id="pPageFormRegionChecksums" value="&#x5B;&#x5D;">
+<input type="hidden" id="pPageItemsRowVersion" value="" /><input type="hidden" id="pPageItemsProtected" value="&#x2F;oFY38Xx1B2zDKlQumY1eD1PJI6N6fI_qSpHk3cXEx_hAZ_VnfL-bl1MGyL0VV1lETLcFDKgE8ZCS-ogTNjZ-SQ" /></form>
+<div id="apexDevToolbar" class="a-DevToolbar a-DevToolbar--bottom" style="display:none"><h1 class="u-VisuallyHidden">Developer Toolbar</h1><ul class="a-DevToolbar-list">
+<li><button id="apexDevToolbarHome" type="button" class="a-Button a-Button--devToolbar" title="Oracle APEX Home" aria-label="Home" data-link="f?p=4500:1000:701216111334224">
+<span class="a-Icon icon-home" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Home</span>
+</button></li>
+<li><button id="apexDevToolbarApp" type="button" class="a-Button a-Button--devToolbar" title="Application 4051112" aria-label="Application 4051112" data-link="f?p=4000:1:701216111334224::NO:1,4150,RP:FB_FLOW_ID,FB_FLOW_PAGE_ID,F4000_P1_FLOW,F4000_P4150_GOTO_PAGE,F4000_P1_PAGE:4051112,4,4051112,4,4">
+<span class="a-Icon icon-edit-app" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Application 4051112</span>
+</button></li>
+<li><button id="apexDevToolbarPage" type="button" class="a-Button a-Button--devToolbar" title="Edit Page 4" aria-label="Edit Page 4" data-link="f?p=4000:4500:701216111334224::NO:1,4150:FB_FLOW_ID,FB_FLOW_PAGE_ID,F4000_P1_FLOW,F4000_P4150_GOTO_PAGE,F4000_P1_PAGE:4051112,4,4051112,4,4">
+<span class="a-Icon icon-edit-page-alt" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Edit Page 4</span>
+</button></li>
+<li><button id="apexDevToolbarSession" type="button" class="a-Button a-Button--devToolbar" title="Session" aria-label="Session" data-link="f?p=4000:34:701216111334224:PAGE:NO:34:F4000_P34_SESSION,F4000_P34_FLOW,F4000_P34_PAGE,FB_FLOW_ID:702261481228251,4051112,4,4051112">
+<span class="a-Icon icon-page-session" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Session</span>
+</button></li>
+<li><button id="apexDevToolbarViewDebug" type="button" class="a-Button a-Button--devToolbar" title="View Debug" aria-label="View Debug" data-link="f?p=4000:19:701216111334224:::RIR,19:IR_APPLICATION_ID,IR_PAGE_ID:4051112,4">
+<span class="a-Icon icon-page-debug" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">View Debug</span>
+</button></li>
+<li><button id="apexDevToolbarDebug" type="button" class="a-Button a-Button--devToolbar" title="Debug" aria-label="Debug" data-link="/pls/apex/pavan123rs8/r/wiki-invention-management-system/inventor?debug=YES&session=702261481228251">
+<span class="a-Icon icon-debug" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Debug</span>
+</button></li>
+<li><button id="apexDevToolbarInfo" type="button" class="a-Button a-Button--devToolbar js-menuButton" title="Page Info" aria-label="Page Info" data-menu="apexDevToolbarInfoMenu">
+<span class="a-Icon icon-info" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Page Info</span>
+</button></li>
+<li><button id="apexDevToolbarQuickEdit" type="button" class="a-Button a-Button--devToolbar" title="Quick Edit" aria-label="Quick Edit" data-link="f?p=4000:4500:701216111334224::NO:1,4150,4500:FB_FLOW_ID,FB_FLOW_PAGE_ID,F4000_P1_FLOW,F4000_P4150_GOTO_PAGE,F4000_P1_PAGE:4051112,4,4051112,4,4">
+<span class="a-Icon icon-quick-edit" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Quick Edit</span>
+</button></li>
+<li><button id="apexDevToolbarThemeRoller" type="button" class="a-Button a-Button--devToolbar" title="Theme Roller" aria-label="Theme Roller">
+<span class="a-Icon icon-theme-roller" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Theme Roller</span>
+</button></li>
+<li><button id="apexDevToolbarOptions" type="button" class="a-Button a-Button--devToolbar js-menuButton" title="Developer Toolbar Options" aria-label="Developer Toolbar Options" data-menu="apexDevToolbarOptionsMenu">
+<span class="a-Icon icon-gear" aria-hidden="true"></span>
+</button></li>
+</ul></div><div id="apexDevToolbarOptionsMenu"></div><div id="apexDevToolbarInfoMenu"></div>
+
+
+<script>
+var apex_img_dir = "https://static.oracle.com/cdn/apex/20.2.0.00.20/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/desktop_all.min.js?v=20.2.0.00.20"></script>
+<script src="wwv_flow.js_messages?p_app_id=4051112&p_lang=en&p_version=20.2.0.00.20-15387131391716&p_builder=Y"></script>
+
+<script type="text/javascript">
+apex.da.initDaEventList = function(){
+apex.da.gEventList = [
+{"triggeringElementType":"REGION","triggeringRegionId":"R8032607111030305513","bindType":"bind","bindEventType":"apexafterclosedialog","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R8032607111030305513",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]}];
+}
+</script>
+
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/themes/theme_42/1.6/js/theme42.min.js?v=20.2.0.00.20"></script>
+
+
+
+  
+
+
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/widget.treeView.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/widget.interactiveReport.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/interactiveGrid.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/widget.stickyTableHeader.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/widget.stickyWidget.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/apex_ui/js/minified/devToolbar.min.js?v=20.2.0.00.20"></script>
+
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/oraclejet/9.1.0/js/libs/require/require.js?v=20.2.0.00.20"></script>
+<script>
+define("jquery",[],function(){return apex.jQuery});
+define("hammerjs",[],function(){return Hammer});
+define("jqueryui-amd/widget",[],function(){return apex.jQuery.widget});
+define("jqueryui-amd/focusable",[],function(){return apex.jQuery.ui.focusable});
+define("jqueryui-amd/position",[],function(){return apex.jQuery.ui.position});
+define("jqueryui-amd/keycode",[],function(){return apex.jQuery.ui.keyCode});
+define("jqueryui-amd/tabbable",[],function(){return { tabbable: function(){ apex.debug.info("Unexpected call: jQuery UI tabbable function"); }}});
+define("jqueryui-amd/unique-id",[],function(){return apex.jQuery.fn});
+</script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/requirejs.jetConfig.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/jetCommonBundle.min.js?v=20.2.0.00.20"></script>
+<script src="https://static.oracle.com/cdn/apex/20.2.0.00.20/libraries/apex/minified/chartBundle.min.js?v=20.2.0.00.20"></script>
+<script type="text/javascript">
+apex.session.initTimeouts(300,{"idle_time_ms":7194000,"life_time_ms":39899000,"max_idle_time_ms":7200000},'\u002Fpls\u002Fapex\u002Fpavan123rs8\u002Fr\u002Fwiki-invention-management-system\u002Fhome');
+apex.jQuery( function() {
+apex.page.init( this, function() {
+apex.initDevToolbar([{"pageId":"4","typeId":"5110","id":"8032611612677305519","domId":"R8032611612677305519"},{"pageId":"4","typeId":"5110","id":"8032607111030305513","domId":"R8032607111030305513"},{"pageId":"4","typeId":"5130","id":"8032610844733305518","domId":"B8032610844733305518"},{"pageId":"4","typeId":"5130","id":"8032613433633305520","domId":"B8032613433633305520"},{"pageId":"4","typeId":"7040","id":"8032607609076305515","domId":"C8032607609076305515"},{"pageId":"4","typeId":"7040","id":"8032608006403305515","domId":"C8032608006403305515"},{"pageId":"4","typeId":"7040","id":"8032608462321305516","domId":"C8032608462321305516"},{"pageId":"4","typeId":"7040","id":"8032608822620305516","domId":"C8032608822620305516"},{"pageId":"4","typeId":"7040","id":"8032609233701305516","domId":"C8032609233701305516"},{"pageId":"4","typeId":"7040","id":"8032609665467305517","domId":"C8032609665467305517"},{"pageId":"4","typeId":"7040","id":"8032610046009305517","domId":"C8032610046009305517"},{"pageId":"4","typeId":"7040","id":"8032610467156305517","domId":"C8032610467156305517"}],"FOCUS",{"autoHide":"Auto Hide","iconsOnly":"Show Icons Only","noBuilderMessage":"This functionality requires the Application Express App Builder window to be open. Do you want to open the Builder in this window?","showPerf":"Show Page Timing","perfTitle":"Page Performance Timing","clear":"Clear","copy":"Copy","gridDebugOn":"Show Layout Columns","gridDebugOff":"Hide Layout Columns","debugLevel":"Default Debug Level","debugLevel4":"Info (default)","debugLevel6":"App Trace","debugLevel9":"Full Trace","debugButtonLabel":"Debug (\u00250)","display":"Display Position","displayTop":"Top","displayLeft":"Left","displayBottom":"Bottom","displayRight":"Right"},42);
+apex.jQuery.when.apply( apex.jQuery, apex.page.loadingDeferreds ).done(function() {
+try {
+(function(){apex.jQuery('body').addClass('t-PageBody--leftNav');})();
+(function(){apex.jQuery('#R8032607111030305513_ir').interactiveReport({"regionId":"R8032607111030305513","helpLink":"wwv_flow_utilities.show_ir_help?p_app_id=4051112\u0026p_worksheet_id=8032607226152305513\u0026p_lang=en","ajaxIdentifier":"UkVHSU9OIFRZUEV-fjgwMzI2MDcxMTEwMzAzMDU1MTM~\u002FtdJlqnKBjIlD1dIJrCA4AGQ-wcXuYaKLTddyJPOzi8EeYXq4RjdMpVQeeO5HhVO4-iWXKniu9_oVhCYkgBZyTw"});})();
+(function(){apex.da.initDaEventList();})();
+(function(){apex.da.init();})();
+apex.theme42.initializePage.noSideCol();
+
+apex.page.warnOnUnsavedChanges();
+} finally {
+apex.event.trigger(apex.gPageContext$,'apexreadyend');
+}
+});
+});
+});</script>
+
+</body>
+</html>
